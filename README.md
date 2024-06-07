@@ -1,7 +1,7 @@
 ### SQL Query Analysis for Car Sales Data
 ### Introduction
 
-This section includes a series of SQL questions answered as part of a comprehensive data analysis project. Each question was designed to address specific business needs and extract meaningful insights from a large dataset. The solutions demonstrate proficiency in SQL and the ability to solve real-world problems through data analysis. Each entry follows a structured format: stating the question, outlining the objective, presenting the SQL query used, providing an explanation of the approach, and sharing the result.
+This section includes a series of SQL questions answered as part of a comprehensive data analysis project. Each question was designed to address specific business needs and extract meaningful insights from a large dataset. 
 
 **Question 1: Pull Unique Product Lines**
 - **Objective**: Identify and retrieve unique product lines used in production.
