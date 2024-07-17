@@ -3,7 +3,7 @@
 
 This section includes a series of SQL questions answered as part of a comprehensive data analysis project. Each question was designed to address specific business needs and extract meaningful insights from a large dataset. 
 
-**Question 1: Pull Unique Product Lines**
+**: Pull Unique Product Lines**
 - **Objective**: Identify and retrieve unique product lines used in production.
 - **SQL Query**:
     ```sql
@@ -13,7 +13,7 @@ This section includes a series of SQL questions answered as part of a comprehens
 - **Explanation**: This query retrieves distinct values from the `productline` column in the `products` table, ensuring that each product line is listed only once.
 - **Result**: A list of unique product lines used in production.
 
-**Question 2: Information on Shipped Orders by Customer 103**
+**: Information on Shipped Orders by Customer 103**
 - **Objective**: Show details of shipped orders made by customer number 103.
 - **SQL Query**:
     ```sql
@@ -33,7 +33,7 @@ This section includes a series of SQL questions answered as part of a comprehens
 - **Explanation**: This query joins the `customers` and `orders` tables to retrieve orders for customer number 103 where the status is 'Shipped'.
 - **Result**: A table containing customer number, order number, order date, and status for shipped orders by customer 103.
 
-**Question 3: Retrieve Specific Job Titles**
+**3: Retrieve Specific Job Titles**
 - **Objective**: Retrieve employees holding the job titles "Sales Rep" or "Marketing Manager".
 - **SQL Query**:
     ```sql
@@ -45,7 +45,7 @@ This section includes a series of SQL questions answered as part of a comprehens
 - **Explanation**: This query filters the `employees` table to select only those with the job titles "Sales Rep" or "Marketing Manager".
 - **Result**: A list of employees who are either Sales Reps or Marketing Managers.
 
-**Question 4: Customers in USA with High Credit Limit**
+**4: Customers in USA with High Credit Limit**
 - **Objective**: Show information about customers in the USA with a credit limit above $100,000.
 - **SQL Query**:
     ```sql
@@ -58,7 +58,7 @@ This section includes a series of SQL questions answered as part of a comprehens
 - **Explanation**: This query retrieves customers from the `customers` table who reside in the USA and have a credit limit over $100,000, sorted by last name.
 - **Result**: A sorted list of customer last names, first names, and credit limits for high-credit customers in the USA.
 
-**Question 5: Number of Products by Product Line**
+**5: Number of Products by Product Line**
 - **Objective**: Show the number of products produced using various product lines.
 - **SQL Query**:
     ```sql
@@ -69,7 +69,7 @@ This section includes a series of SQL questions answered as part of a comprehens
 - **Explanation**: This query groups the `products` table by `productLine` and counts the number of products in each line.
 - **Result**: A table showing the number of products for each product line.
 
-**Question 6: Total Units Sold for Each Product**
+**6: Total Units Sold for Each Product**
 - **Objective**: Calculate the total number of units sold for each product, filtering results to include products with more than 500 units sold.
 - **SQL Query**:
     ```sql
@@ -82,7 +82,7 @@ This section includes a series of SQL questions answered as part of a comprehens
 - **Explanation**: This query sums the `quantityInStock` for each `productName`, filters for products with more than 500 units sold, and orders the results by the total units sold.
 - **Result**: A list of products with total units sold greater than 500.
 
-**Question 7: Number of Employees per Office**
+**7: Number of Employees per Office**
 - **Objective**: Determine the number of employees in each office.
 - **SQL Query**:
     ```sql
@@ -95,7 +95,7 @@ This section includes a series of SQL questions answered as part of a comprehens
 - **Explanation**: This query joins the `employees` and `offices` tables to count the number of employees in each office, grouped by office code, city, and country.
 - **Result**: A table showing the number of employees in each office.
 
-**Question 8: Number of Orders by Customer**
+**8: Number of Orders by Customer**
 - **Objective**: Identify the number of orders made by each customer and determine which customer made the most orders.
 - **SQL Query**:
     ```sql
@@ -120,7 +120,7 @@ This section includes a series of SQL questions answered as part of a comprehens
     ```
 - **Result**: The customer who made the most orders.
 
-**Question 9: Comprehensive Customer Order History**
+**9: Comprehensive Customer Order History**
 - **Objective**: Gain a comprehensive understanding of customers' order history, including those who have not yet placed any orders.
 - **SQL Query**:
     ```sql
@@ -151,7 +151,7 @@ This section includes a series of SQL questions answered as part of a comprehens
     ```
 - **Result**: Customers who have not placed any orders.
 
-**Question 10: Peak Shipped Order Times**
+**10: Peak Shipped Order Times**
 - **Objective**: Determine the year, month, and day of the week with the most shipped orders.
 - **SQL Query**:
     ```sql
