@@ -3,7 +3,7 @@
 
 This section includes a series of SQL questions answered as part of a comprehensive data analysis project. Each question was designed to address specific business needs and extract meaningful insights from a large dataset. 
 
-**: Pull Unique Product Lines**
+**1: Pull Unique Product Lines**
 - **Objective**: Identify and retrieve unique product lines used in production.
 - **SQL Query**:
     ```sql
@@ -13,7 +13,7 @@ This section includes a series of SQL questions answered as part of a comprehens
 - **Explanation**: This query retrieves distinct values from the `productline` column in the `products` table, ensuring that each product line is listed only once.
 - **Result**: A list of unique product lines used in production.
 
-**: Information on Shipped Orders by Customer 103**
+**2: Information on Shipped Orders by Customer 103**
 - **Objective**: Show details of shipped orders made by customer number 103.
 - **SQL Query**:
     ```sql
